@@ -687,8 +687,8 @@ input[type=range] { width: 100%; accent-color: var(--red); height: 28px; }
   .sheet.on { transform: translateY(0); }
   .sheet.wide { width: 100%; }
 }
-.toast { position: fixed; left: 50%; top: 20px; transform: translate(-50%, -140%); z-index: 100; background: var(--ink); color: #fff; padding: 12px 18px; border-radius: 12px; font-size: 14px; box-shadow: var(--sh-2); display: flex; align-items: center; gap: 8px; transition: transform .3s; max-width: calc(100% - 32px); }
-.toast.on { transform: translate(-50%, 0); }
+.toast { position: fixed; left: 50%; top: 20px; transform: translate(-50%, calc(-100% - 60px)); visibility: hidden; z-index: 100; background: var(--ink); color: #fff; padding: 12px 18px; border-radius: 12px; font-size: 14px; box-shadow: var(--sh-2); display: flex; align-items: center; gap: 8px; transition: transform .3s, visibility .3s; max-width: calc(100% - 32px); }
+.toast.on { transform: translate(-50%, 0); visibility: visible; }
 .toast svg { width: 16px; height: 16px; color: #7EE29A; }
 .toast a { color: #FF9AA4; text-decoration: underline; }
 
