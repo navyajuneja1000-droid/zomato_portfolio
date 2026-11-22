@@ -716,3 +716,14 @@ input[type=range] { width: 100%; accent-color: var(--red); height: 28px; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; scroll-behavior: auto !important; }
 }
+
+/* ---------- "Open the build" links ---------- */
+.bl-pill { display: inline-flex; align-items: center; gap: 4px; margin: 0 2px 0 6px; padding: 1px 8px; border: 1px solid currentColor; border-radius: 99px; font-size: .78em; font-weight: 700; line-height: 1.5; white-space: nowrap; text-decoration: none; vertical-align: 1px; color: var(--bl); background: transparent; }
+.bl-pill:hover { background: var(--bl); color: #fff; border-color: var(--bl); }
+.bl-pill svg { flex: none; }
+.bl-cta-wrap { margin: 10px 0 4px; }
+.bl-cta { display: inline-flex; align-items: center; gap: 8px; padding: 9px 16px; border-radius: 99px; background: var(--bl); color: #fff !important; font-weight: 700; font-size: 14px; text-decoration: none; }
+.bl-cta:hover { filter: brightness(1.08); }
+.bl-cta svg { width: 14px; height: 14px; }
+.bl-pill.bl-card { align-self: flex-start; margin: 8px 0 2px; font-size: 12px; padding: 3px 10px; }
+:root { --bl: #E23744; }
