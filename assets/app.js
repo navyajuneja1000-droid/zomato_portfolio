@@ -142,7 +142,7 @@
       ["53% OFF", "go-live time, Cards (40% NetBanking)", "pp-golive", "result"],
       ["360 IN 1", "merchant go-lives in one upload", "pp-golive", "result"],
       ["95% MOVED", "payment traffic, in 3 months, phased", "pp-migration", "result"],
-      ["4 TEAMS", "aligned on one MVP scope", "h2h", "result"],
+      ["90% ON TIME", "150+ orders, 3 teams", "h2h", "result"],
       ["4 + 5", "network launches and partner integrations", "pp-launches", "result"],
       ["5 GATES", "decide a pilot's scale-up", "wowworld", "target"],
       ["4 CLOCKS", "one per party: whose time was it?", "mid", "built"]
@@ -486,7 +486,7 @@
     return '<div class="wrap pg prof">' +
       '<nav class="crumb" aria-label="Breadcrumb"><a href="#/">Home</a> / <span>Profile</span></nav>' +
       '<div class="pf"><img src="assets/portrait.jpg" alt="Portrait of Navya Juneja" width="120" height="150"><div><h1>' + esc(p.name) + '</h1><p class="pf-r">Program Manager · ' + esc(p.location) + "</p>" +
-        "<p>I run work that crosses teams: a 10-stage merchant go-live at PhonePe, four teams aligned on one MVP at Cogent, gated pilots and plans pitched to two CEOs at Masters' Union, and two live builds of my own. Payments is one of my domains, not the whole of it.</p>" +
+        "<p>I run work that crosses teams: a 10-stage merchant go-live at PhonePe, SLAs and hand-offs for three teams at Cogent (90% of 150+ orders on time), gated pilots and plans pitched to two CEOs at Masters' Union, and two live builds of my own. Payments is one of my domains, not the whole of it.</p>" +
         '<div class="pf-a"><a class="btn" href="#/cart">Request an interview</a><a class="btn ghost" href="' + p.resume + '" download>' + I.dl + 'Résumé</a><a class="btn ghost" href="' + p.portfolio + '" target="_blank" rel="noopener">Main portfolio' + I.ext + "</a></div></div></div>" +
       '<section class="sec"><h2 class="h2">Contact</h2><ul class="contact row"><li><a href="mailto:' + p.email + '">' + I.mail + esc(p.email) + '</a></li><li><a href="' + p.phoneHref + '">' + I.phone + esc(p.phone) + '</a></li><li><a href="' + p.linkedin + '" target="_blank" rel="noopener">' + I.li + esc(p.linkedinShort) + "</a></li></ul></section>" +
       '<section class="sec"><h2 class="h2">Certifications</h2><div class="certs">' + D.certs.map(function (c) { return '<div class="cert"><span class="cert-i">' + I.check + "</span><div><b>" + esc(c[0]) + "</b><p>" + esc(c[1]) + "</p></div></div>"; }).join("") + "</div></section>" +

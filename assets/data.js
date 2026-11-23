@@ -206,37 +206,40 @@ window.NJ = {
 
     {
       id: "h2h", org: "cogent", domain: "edtech", sort: 20,
-      name: "H2H: four teams aligned on one MVP",
+      name: "H2H: a pricing pivot, a launch, and 3 teams delivering on time",
       short: "H2H career-prep launch",
-      skills: ["align", "discovery", "metrics"], problems: ["owner", "parties"],
-      status: "Delivered", when: "Aug 2025 – Jun 2026", dur: "10 months", parties: "Marketing, Sales, Delivery, Tech",
-      offer: { t: "65 → 300", s: "sign-ups in two months", p: "result" },
+      skills: ["discovery", "metrics", "process", "unitecon"], problems: ["parties", "handoffs", "leaks"],
+      status: "Delivered", when: "Aug 2025 – Jun 2026", dur: "10 months", parties: "3 delivery teams, plus Engineering",
+      offer: { t: "~$110K", s: "in 2 months at 6x ROAS", p: "result" },
       rating: "result",
-      hook: "A pivot from a long-cycle ISA product to an expert-led US career-prep program, scoped so four teams could ship it.",
-      cover: { a: "#1C6DD0", b: "#0B2E5E", big: "4 teams", small: "one MVP scope" },
-      zomato: "Most Zomato launches need Marketing, Sales or City teams, Ops and Tech to agree on what ships first. H2H is where I owned that agreement: one written MVP scope, shared success metrics, and a funnel everyone tracked the same way.",
+      hook: "From pay-after-placement to upfront pricing, a launch in 5 US states, and SLAs that kept 3 teams at 90% on time.",
+      cover: { a: "#1C6DD0", b: "#0B2E5E", big: "90%", small: "on time across 150+ orders" },
+      zomato: "Most Zomato programs succeed or fail in the hand-offs: a restaurant, a delivery partner and an internal team each own a piece. At H2H I set the SLAs, SOPs and hand-offs for 3 teams, and 90% of 150+ orders were delivered on time. I treated the funnel the same way: find where people drop, cut it (form drop-off 72% to 45%), and go after the ones who left (18% recovered by email).",
       summary: {
-        problem: "Cogent's long-cycle ISA product wasn't working. US job seekers were buying separate CV, LinkedIn and interview services and still not getting callbacks.",
-        did: "Drove the pivot to H2H (Human to Human). Ran 60+ customer interviews, benchmarked 15+ competitors, then defined MVP scope, requirements and customer journeys, aligning Marketing, Sales, Delivery and Tech. Owned GTM planning, success metrics and funnel tracking.",
-        landed: "Sign-ups grew from ~65 to ~300 in two months through funnel-led CTAs, including a free résumé audit mapped into the website flow with Engineering."
+        problem: "US job seekers were buying separate CV, LinkedIn and interview services and still not getting callbacks. Cogent's pay-after-placement (ISA) model left revenue waiting on each customer's job search.",
+        did: "Pivoted H2H to upfront pricing after 60+ interviews, a payback analysis and 15+ rivals. Built a 5-metric LinkedIn score (0–100) and packaged ~30 features into 3 tiers. Launched to 2 personas in 5 priority US states, ran the funnel experiments, and set the SLAs, SOPs and hand-offs for 3 teams.",
+        landed: "~$110K in 2 months at 6x ROAS. Sign-ups up 4.6×, 8% of 1,500+ sign-ups converted to paid, 22% of $499 buyers upgraded, and 90% of 150+ orders delivered on time."
       },
       details: [
         ["Role", "Assistant Project Manager – Product Development, Cogent Infotech"],
         ["When", "Aug 2025 – Jun 2026 · Remote"],
-        ["Teams aligned", "Marketing, Sales, Delivery, Tech"],
-        ["Output", "MVP scope, requirements, customer journeys, 3-tier pricing, GTM plan, funnel tracking"]
+        ["Teams", "3 delivery teams with SLAs and SOPs; Engineering for the résumé audit"],
+        ["Output", "Upfront pricing, 3 tiers, a 0–100 LinkedIn score, the launch, SLAs, SOPs and hand-offs"]
       ],
       metrics: [
-        { v: "~65 → ~300", l: "sign-ups in two months", p: "result" },
-        { v: "60+", l: "customer interviews behind the MVP scope", p: "result" },
-        { v: "15+", l: "competitors benchmarked on features, pricing and journeys", p: "result" },
-        { v: "~$349K", l: "launch target behind the $499 / $899 / $1,300 tiers", p: "target" }
+        { v: "90%", l: "on-time delivery across 150+ orders, from SLAs, SOPs and hand-offs for 3 teams", p: "result" },
+        { v: "~$110K", l: "in 2 months at 6x ROAS, launching to 2 personas in 5 US states", p: "result" },
+        { v: "4.6×", l: "sign-ups: form drop-off cut from 72% to 45%, 18% of drop-offs recovered via email", p: "result" },
+        { v: "8%", l: "of 1,500+ sign-ups converted to paid, via a free résumé audit as the lead magnet", p: "result" },
+        { v: "22%", l: "of $499 buyers upgraded across the 3 tiers", p: "result" },
+        { v: "60+", l: "interviews, a payback analysis and 15+ rivals behind the pricing pivot", p: "result" }
       ],
       sections: [
-        { h: "How four teams got to one scope",
-          steps: [["Evidence first", "60+ interviews and 15+ competitors, so scope debates started from what customers said."], ["Write the MVP down", "Defined MVP scope, requirements and customer journeys, aligning Marketing, Sales, Delivery and Tech."], ["Tie price to delivery", "Three tiers ($499 / $899 / $1,300), each tying service scope to SLAs."], ["Own the launch numbers", "Owned GTM planning, success metrics and funnel performance tracking for the launch."]] },
+        { h: "How the program ran",
+          steps: [["Evidence first", "60+ interviews, a payback analysis and 15+ rivals before the model moved from pay-after-placement to upfront pricing."], ["Make the gap measurable", "A 5-metric LinkedIn scoring model (0–100) showed which of the 3 tiers a buyer needed."], ["Launch narrow", "2 personas, 5 priority US states, and a free résumé audit, shipped with Engineering, as the way in."], ["Fix the leaks", "Form drop-off from 72% to 45%, 18% of drop-offs recovered by email, sign-ups up 4.6×."], ["Hold delivery", "SLAs, SOPs and hand-offs for 3 teams: 90% on time across 150+ orders."]] },
         { h: "Tiers named for where the buyer is stuck",
-          tiers: [["Interview Accelerator", "$499", "Stuck before the interview"], ["Offer Builder", "$899", "Stuck at conversion"], ["Offer Accelerator", "$1,300", "Stuck at the offer"]] }
+          tiers: [["Interview Accelerator", "$499", "Stuck before the interview"], ["Offer Builder", "$899", "Stuck at conversion"], ["Offer Accelerator", "$1,300", "Stuck at the offer"]],
+          p: "About 30 features packaged into 3 tiers. 22% of $499 buyers upgraded." }
       ]
     },
 
@@ -500,10 +503,10 @@ window.NJ = {
   playbook: [
     { id: "intake", n: "Intake", t: "Understand the request before it costs a cycle",
       p: "Who asked, who owns each part, and what would make the request bounce. Evidence first: interviews, data, the current process written down.",
-      ex: [["mid", "An intake readiness check catches a request that would bounce before it reaches the bank."], ["h2h", "60+ interviews and 15+ competitors before scope was written."]] },
+      ex: [["mid", "An intake readiness check catches a request that would bounce before it reaches the bank."], ["h2h", "60+ interviews, a payback analysis and 15+ rivals before the pricing model changed."]] },
     { id: "plan", n: "Plan", t: "One written scope, owners and gates",
       p: "Scope, owners, success metrics and the gate for each phase, agreed by every team that has to deliver it.",
-      ex: [["perfora", "Six-month roadmap with an owner, leading KPIs and a gate per phase."], ["h2h", "MVP scope aligned across Marketing, Sales, Delivery and Tech."], ["pp-golive", "10-stage workflow mapped before anything was changed."]] },
+      ex: [["perfora", "Six-month roadmap with an owner, leading KPIs and a gate per phase."], ["h2h", "SLAs, SOPs and hand-offs written for 3 teams before orders flowed."], ["pp-golive", "10-stage workflow mapped before anything was changed."]] },
     { id: "phase", n: "Phase", t: "Pilot, then shift in tranches",
       p: "Start small, decide with numbers, keep a way back.",
       ex: [["pp-migration", "95% of traffic moved in three months through phased routing shifts."], ["wowworld", "A ₹54 L pilot where five gates decide the scale-up."]] },
@@ -567,9 +570,9 @@ window.NJ = {
     { id: "cogent", type: "work", org: "Cogent Infotech", logo: "assets/logos/cogent.svg",
       title: "Assistant Project Manager – Product Development", when: "Aug 2025 – Jun 2026", where: "Remote",
       status: "delivered", statusText: "Delivered · Jun 2026",
-      body: "Drove the pivot from a long-cycle ISA product to H2H, an expert-led US career-prep program. Owned discovery, MVP scope, pricing and GTM, and aligned 4 teams for the launch.",
-      bullets: [["4 teams", "Marketing, Sales, Delivery and Tech aligned on MVP scope"], ["~65 → ~300", "sign-ups in two months"], ["60+", "customer interviews"], ["3 tiers", "$499 / $899 / $1,300 tied to SLAs"]],
-      track: [["Joined", "Aug 2025"], ["Discovery", "60+ interviews"], ["MVP scope", "4 teams aligned"], ["Delivered", "Jun 2026"]],
+      body: "Took H2H, an expert-led US career-prep program, from pay-after-placement (ISA) to upfront pricing, launched it, and set up delivery across 3 teams. Owned discovery, pricing, the launch and delivery.",
+      bullets: [["90%", "on-time delivery across 150+ orders: SLAs, SOPs and hand-offs for 3 teams"], ["~$110K", "in 2 months at 6x ROAS, launching to 2 personas in 5 US states"], ["4.6×", "sign-ups: form drop-off 72% to 45%, 18% of drop-offs recovered"], ["8%", "of 1,500+ sign-ups converted to paid via a free résumé audit"], ["22%", "of $499 buyers upgraded across 3 tiers"], ["60+", "interviews, a payback analysis and 15+ rivals behind the pivot to upfront pricing"]],
+      track: [["Joined", "Aug 2025"], ["Pivot", "Upfront pricing"], ["Launch", "~$110K in 2 months"], ["Delivered", "90% on time"]],
       related: ["h2h"] },
     { id: "phonepe-sr", type: "work", org: "PhonePe", logo: "assets/logos/phonepe.svg",
       title: "Senior Operations Analyst – Product & Payments", when: "Jul 2024 – Jun 2025", where: "Bengaluru",
@@ -609,7 +612,7 @@ window.NJ = {
 
   faq: [
     ["Why Program Manager, and why Zomato?",
-     "Because the problems I've enjoyed most were never about one industry. They were about many parties, unclear ownership and work waiting between desks: a 10-stage merchant go-live, four teams agreeing on one MVP, a pilot that needs gates before it spends. Zomato runs exactly that kind of program every day, across restaurants, delivery partners and customers, at a scale where a day saved in a handoff matters."],
+     "Because the problems I've enjoyed most were never about one industry. They were about many parties, unclear ownership and work waiting between desks: a 10-stage merchant go-live, three teams handing off to deliver 150+ orders on time, a pilot that needs gates before it spends. Zomato runs exactly that kind of program every day, across restaurants, delivery partners and customers, at a scale where a day saved in a handoff matters."],
     ["Isn't your background mostly payments?",
      "Payments at PhonePe is two of my years and one domain on this page. The others are US career-prep edtech (Cogent), D2C growth (Perfora), an FMCG launch (WOW! World), a retail venture (Found It), consumer research (Prolectro), ops tooling (MID Procurement) and revenue recovery (ReconOS). The common thread is running work across teams to a finish."],
     ["What do the Result / Built / Modelled labels mean?",
